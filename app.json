@@ -175,7 +175,7 @@
         "BOT_NAMEV1": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "  𝐀𝐁𝐔 𝐒𝐄𝐑<࿐"
+            "value": "  𝐌𝐢𝐧𝐱<࿐"
         },
         "BOT_NAME": {
             "description": "heading for bgm command reply",
