@@ -56,7 +56,7 @@ https://heroku.com/deploy?template=https://github.com/AXN4/Minx
 # Contact for help:
    * Click [Contact](https://wa.me/8590451659?text=Need+Help🙂) Here For Contact AXN4
 # Contact for help:
-   * Click [Contact](https://wa.me/9567489404?text=Need+Help🙂) Here For Contact Shefin 
+   * Click [Contact](https://wa.me/7994761437?text=Need+Help🙂) Here For Contact Abhiram Aj 
   
   
   ## Developers
