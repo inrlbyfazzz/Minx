@@ -1,4 +1,4 @@
-const Abu = require('../events');
+const Minx = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
