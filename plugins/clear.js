@@ -25,7 +25,7 @@ Abu.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: t
 
     await message.sendMessage('```𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝙽𝙸𝙽𝙶....```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝙽𝙴𝙳✅️```');
+    await message.sendMessage('```𝙲𝙷𝙰𝚃 𝙲𝙻𝙴𝙰𝙽𝙴𝙳🤑```');
 }));
 
 Abu.addCommand({pattern: 'clean ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
