@@ -2,12 +2,12 @@ const Minx = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const Config = require('../config');
-const {abubuffer} = require('../buffer');
+const {Minxbuffer} = require('../buffer');
 const fs = require("fs")
 const Language = require('../language');
 const Lang = Language.getString('alive');
 
-Abu.addCommand({pattern: 'alive', fromMe: false, desc: Lang.GL}, (async (message, match) => {
+Minx.addCommand({pattern: 'alive', fromMe: false, desc: Lang.GL}, (async (message, match) => {
 var img = await abubuffer(Config.LOGO)
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {quoted: message.data , thumbnail: img, mimetype: Mimetype.png,
