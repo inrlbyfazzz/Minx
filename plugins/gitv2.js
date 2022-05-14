@@ -1,6 +1,6 @@
 //modified @ Afx-Abu
 
-const Abu = require('../events');
+const Minx = require('../events');
 const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 const exec = require('child_process').exec;
 const os = require("os");
