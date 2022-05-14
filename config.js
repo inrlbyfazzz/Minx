@@ -63,7 +63,7 @@ module.exports = {
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     INSTA: process.env.INSTA_LINK === undefined ? 'https://instagram.com/_axn4' : process.env.INSTA_LINK,
     GROUP: process.env.GROUP_LINK === undefined ? 'https://chat.whatsapp.com/Bkr0eUKoVse2VgmFazzk4t' : process.env.GROUP_LINK,
-    LOGO: process.env.AL_IMG === undefined ? 'https://telegra.ph/file/8c5bc9987927f02d18a42.jpg' : process.env.AL_IMG,
+    LOGO: process.env.AL_IMG === undefined ? 'https://telegra.ph/file/8ba12c325bebbea840940.jpg' : process.env.AL_IMG,
     ABU_SER: process.env.ALIVE_BUTTON === undefined ? 'ʜɪ/ʙʀᴏ' : process.env.ALIVE_BUTTON,
     BOTSK: process.env.BOT_NAMEV1 === undefined ? 'PUBLIC BOT' : process.env.BOT_NAMEV1,
     SKDL: process.env.DIALOGUE === undefined ? '❤️‍🔥 Տᗴᗴᗴᑎ ᗩᒪᒪᗴ ᗰᗯOᑎY ❤️‍🔥' : process.env.DIALOGUE,
