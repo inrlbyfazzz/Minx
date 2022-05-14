@@ -1,15 +1,15 @@
 {
-    "name": "Abu_ser",
-    "description": "Abu is the Modified Version of WhatsAsena, Made By @Afx-Abu with Baileys.",
-    "logo": "https://i.imgur.com/OseHc3b.jpg",
-    "keywords": ["whatsapp", "userbot", "Abu", "WhatsAsena", "mwol", "bot", "ai"],
-    "repository": "https://github.com/Afx-Abu/Abu_ser",
-    "website":   "https://github.com/Afx-Abu/Abu_ser",
-    "success_url": "https://github.com/Afx-Abu/Abu_ser",
+    "name": "Minx",
+    "description": "Minx is the Modified Version of WhatsAsena, Made By @AXN4 with Baileys.",
+    "logo": "https://telegra.ph/file/8ba12c325bebbea840940.jpg",
+    "keywords": ["whatsapp", "userbot", "Minx", "WhatsAsena", "mwol", "bot", "ai"],
+    "repository": "https://github.com/AXN4/Minx",
+    "website":   "https://github.com/AXN4/Minx",
+    "success_url": "https://github.com/AXN4/Minx",
     "stack": "container",
     "env": {
-        "ABU_QR_SESSION": {
-            "description": "Type here yours Abu Session.",
+        "Minx_QR_SESSION": {
+            "description": "Type here yours Minx Session.",
             "required": true
         },
         "SUDO": {
@@ -28,17 +28,17 @@
         "INSTA_LINK": {
             "description": "Enter Your Insta Link",
             "required": true,
-            "value": "https://instagram.com/jasil_xo"
+            "value": "https://instagram.com/_axn4._"
         },
         "GROUP_LINK": {
             "description": "Enter Your Group Link",
             "required": true,
-            "value": "https://chat.whatsapp.com/DNP9Fd1eWrjKz2DalRI2CX"
+            "value": "https://chat.whatsapp.com/Bkr0eUKoVse2VgmFazzk4t"
         },
         "ALL_IMG": {
             "description": "Enter Your img url",
             "required": true,
-            "value": "https://telegra.ph/file/8c5bc9987927f02d18a42.jpg"
+            "value": "https://telegra.ph/file/8ba12c325bebbea840940.jpg"
         },
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
@@ -77,7 +77,7 @@
         "VERIFIED": {
             "description": "Give with number jid",
             "required": true,
-            "value": "917025994178@s.whatsapp.net"
+            "value": "918590451659@s.whatsapp.net"
         },
         "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
