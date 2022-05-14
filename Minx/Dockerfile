@@ -5,6 +5,6 @@ WORKDIR /jsl/Abuser/
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN yarn install --no-audit
-RUN git clone https://github.com/Afx-Abu/bgms
+RUN git clone https://github.com/Afx-Abu/media
 
 CMD ["node", "bot.js"]
