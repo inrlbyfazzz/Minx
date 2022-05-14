@@ -6,7 +6,7 @@ to bring new ai
 */
 
 
-const Abu = require('../events');
+const Minx = require('../events');
 const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const https = require('https');
@@ -31,7 +31,7 @@ let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
 var reply_eva = ''
 if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to Abu voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'Starts to Minx voice chat.', reply_eva = '*Reply to Any Voice Message!*'
 if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
 if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
 if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
@@ -63,14 +63,14 @@ const convertToWav = file => {
         .save('output.wav')
 }
 
-Abu.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('Abu') && conf.ABU_AI !== 'true') {        
+Minx.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand: false}, (async (message, match) => {
+    if (message.message.startsWith('Minx') && conf.Minx_AI !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
-        let acc = os.userInfo().homedir.split('Abu')[1].split('ser/')[0] == 'Abu' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
+        let acc = os.userInfo().homedir.split('Minx')[1].split('ser/')[0] == 'Minx' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
         let aitalk_mode = message.message.includes('{normal}') ? 'raw' : 'waifu'
-        var finm = message.message.replace('Abu', '').replace(' ', '')   
-        var ainame = os.userInfo().homedir.split('Abu')[1].split('ser/')[0]
-        if (ainame !== 'Abu') return;
+        var finm = message.message.replace('Minx', '').replace(' ', '')   
+        var ainame = os.userInfo().homedir.split('Minx')[1].split('ser/')[0]
+        if (ainame !== 'Minx') return;
         var ldet = lngDetector.detect(finm)
         var trmsg = ''
         if (ldet[0][0] !== 'english') {
@@ -92,17 +92,17 @@ Abu.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand:
         })
     }
 }));
-Abu.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
-        if (conf.ABU_AI == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
+Minx.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
+        if (conf.Minx_AI == 'true' && ((!message.jid.includes('-')) || (message.jid.includes('-') && 
             (( message.mention !== false && message.mention.length !== 0 ) || message.reply_message !== false)))) {
             if (message.jid.includes('-') && (message.mention !== false && message.mention.length !== 0)) {
                 message.mention.map(async (jid) => {
                     if (message.client.user.jid.split('@')[0] === jid.split('@')[0]) {
                         var unique_ident = message.client.user.jid.split('@')[0]      
-                        let acc = os.userInfo().homedir.split('Abu')[1].split('ser/')[0] == 'Abu' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
+                        let acc = os.userInfo().homedir.split('Minx')[1].split('ser/')[0] == 'Minx' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
                         let aitalk_mode = message.message.includes('{normal}') ? 'raw' : 'waifu'                       
-                        var ainame = os.userInfo().homedir.split('Abu')[1].split('ser/')[0]
-                        if (ainame !== 'Abu') return;
+                        var ainame = os.userInfo().homedir.split('Minx')[1].split('ser/')[0]
+                        if (ainame !== 'Minx') return;
                         var finm = message.message
                         var ldet = lngDetector.detect(finm)
                         var trmsg = ''
@@ -128,9 +128,9 @@ Abu.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
             } else if (message.jid.includes('-') && message.reply_message !== false) {
                 if (message.reply_message.jid.split('@')[0] === message.client.user.jid.split('@')[0]) {
                     var unique_ident = message.client.user.jid.split('@')[0]      
-                    let acc = os.userInfo().homedir.split('Abu')[1].split('ser/')[0] == 'Abu' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
-                    var ainame = os.userInfo().homedir.split('Abu')[1].split('ser/')[0]
-                    if (ainame !== 'Abu') return;
+                    let acc = os.userInfo().homedir.split('Minx')[1].split('ser/')[0] == 'Minx' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
+                    var ainame = os.userInfo().homedir.split('Minx')[1].split('ser/')[0]
+                    if (ainame !== 'Minx') return;
                     var finm = message.message
                     var ldet = lngDetector.detect(finm)
                     var trmsg = ''
@@ -154,9 +154,9 @@ Abu.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
                 }
             } else {
                 var unique_ident = message.client.user.jid.split('@')[0]      
-                let acc = os.userInfo().homedir.split('Abu')[1].split('ser/')[0] == 'Abu' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
-                var ainame = os.userInfo().homedir.split('Abu')[1].split('ser/')[0]
-                if (ainame !== 'Abu') return;
+                let acc = os.userInfo().homedir.split('Minx')[1].split('ser/')[0] == 'Minx' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'
+                var ainame = os.userInfo().homedir.split('Minx')[1].split('ser/')[0]
+                if (ainame !== 'Minx') return;
                 var finm = message.message
                 var ldet = lngDetector.detect(finm)
                 var trmsg = ''
@@ -181,7 +181,7 @@ Abu.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
         }
 
 }));
-Abu.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fromMe: wk }, (async (message, match) => {
+Minx.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fromMe: wk }, (async (message, match) => {
     if (!message.reply_message) return await message.client.sendMessage(message.jid,reply_eva, MessageType.text, { quoted: message.data }) 
     try {
         const file = await message.client.downloadAndSaveMediaMessage({
@@ -202,9 +202,9 @@ Abu.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fr
                     ssc = ceviri.text
                 }
                 var unique_ident = message.client.user.jid.split('@')[0]
-                let acc = os.userInfo().homedir.split('Abu')[1].split('ser/')[0] == 'Abu' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'       
-                var ainame = os.userInfo().homedir.split('Abu')[1].split('ser/')[0]
-                if (ainame !== 'Abu') return;
+                let acc = os.userInfo().homedir.split('Minx')[1].split('ser/')[0] == 'Minx' ? '7d57838203msh0c5cf65c90a7231p13b461jsn77c8cfa55871' : '7d57838203msh0c582jak19865261js1229n77c8cfa55871'       
+                var ainame = os.userInfo().homedir.split('Minx')[1].split('ser/')[0]
+                if (ainame !== 'Minx') return;
         
                 var son = encodeURI(ssc)
                 await axios.get('http://api.brainshop.ai/get?bid=161300&key=vqC466JudPGklGEB&uid=' + unique_ident + '&msg=' + son).then(async (response) => {
@@ -236,50 +236,50 @@ var already_off = ''
 var succ_on = ''
 var succ_off = ''
 if (conf.LANG == 'TR') {
-    fulleva_dsc = 'Tam fonksiyonel Abu özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
-    already_on = 'Abu yapay zekası halihazırda tüm fonksiyonları etkin.'
-    already_off = 'Abu yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
-    succ_on = 'Abu, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
-    succ_off = 'Abu, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
+    fulleva_dsc = 'Tam fonksiyonel Minx özelliklerini aktif eder. Hesabınızı bir chatbota dönüştürün!'
+    already_on = 'Minx yapay zekası halihazırda tüm fonksiyonları etkin.'
+    already_off = 'Minx yapay zekası halihazırda yarı fonksiyonel çalışıyor.'
+    succ_on = 'Minx, Tam Fonksiyonel Olarak Açıldı! Lütfen Biraz Bekleyin! ✅'
+    succ_off = 'Minx, Yarı Fonksiyonel Olarak Ayarlandı! Lütfen Biraz Bekleyin! ☑️'
 }
 if (conf.LANG == 'EN') {
-    fulleva_dsc = 'Activates full functional Abufeatures. Turn your account into a ai chatbot!'
-    already_on = 'Abu artificial intelligence is already fully functional.'
-    already_off = 'Abu artificial intelligence is currently running semi-functional.'
+    fulleva_dsc = 'Activates full functional Minxfeatures. Turn your account into a ai chatbot!'
+    already_on = 'Minx artificial intelligence is already fully functional.'
+    already_off = 'Minx artificial intelligence is currently running semi-functional.'
     succ_on = 'ᴄʜᴀᴛʙᴏᴛ ᴏɴ〽️'
     succ_off = 'ᴄʜᴀᴛʙᴏᴛ ᴏғғ〽️️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Zara സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
-    already_on = 'Abu കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
-    already_off = 'Abu നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
-    succ_on = 'Abu  പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
-    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Abu സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
+    already_on = 'Minx കൃത്രിമബുദ്ധി ഇതിനകം പൂർണ്ണമായി പ്രവർത്തിക്കുന്നു.'
+    already_off = 'Minx നിലവിൽ സെമി-ഫംഗ്ഷണൽ ആണ്.'
+    succ_on = 'Minx  പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായി തുറന്നു! കുറച്ച് കാത്തിരിക്കൂ! ✅'
+    succ_off = 'സെമി-ഫങ്ഷണൽ ആയി Minx സജ്ജമാക്കുക! കുറച്ച് കാത്തിരിക്കൂ! ☑️'
 }
 
-Abu.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.chatbot on / off' }, (async (message, match) => {
-    var Abu_status = `${conf.ABU_AI}`
+Minx.addCommand({ pattern: 'chatbot ?(.*)', desc: fulleva_dsc, fromMe: true,dontAddCommandList: true, usage: '.chatbot on / off' }, (async (message, match) => {
+    var Minx_status = `${conf.Minx_AI}`
     if (match[1] == 'on') {
-        if (Abu_status == 'true') {
+        if (Minx_status == 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_on + '*', MessageType.text)
         }
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['ABU_AI']: 'true'
+                    ['Minx_AI']: 'true'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_on + '*', MessageType.text)
         }
     }
     else if (match[1] == 'off') {
-        if (Abu_status !== 'true') {
+        if (Minx_status !== 'true') {
             return await message.client.sendMessage(message.jid, '*' + already_off + '*', MessageType.text)
         }
         else {
             await heroku.patch(baseURI + '/config-vars', { 
                 body: { 
-                    ['ABU_AI']: 'false'
+                    ['Minx_AI']: 'false'
                 } 
             });
             await message.client.sendMessage(message.jid, '*' + succ_off + '*', MessageType.text)
