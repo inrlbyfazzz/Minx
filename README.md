@@ -1,7 +1,7 @@
 <div align="center">
 <div align="center">
   <p align="center">
-<img src=https://telegra.ph/file/31aa39c66791541bb6713.jpg>
+
 </p>
  </a>
 </p>
