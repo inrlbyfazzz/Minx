@@ -218,7 +218,7 @@
         "ALL_NAME": {
             "description": "Enter Your Img Url Link {https://img-upload-five.vercel.app/}",
             "required": true,
-            "value": "ᡃ⃝ī.ᴀᴍ/ᴀʙᴜ sᴇʀ⁴⁰⁴࿐"
+            "value": "ᡃ⃝ī.ᴀᴍ/ᴍɪɴx࿐"
         },
         "DIALOGUE": {
             "description": "Type anything here",
@@ -228,7 +228,7 @@
         "V_HEADER": {
             "description": "Shows on top of verified tick. Type any words here.",
             "required": true,
-            "value": "ᡃ⃝ī.ᴀᴍ/ᴀʙᴜ sᴇʀ⁴⁰⁴࿐"
+            "value": "ᡃ⃝ī.ᴀᴍ/ᴍɪɴx࿐"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
