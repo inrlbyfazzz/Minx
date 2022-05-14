@@ -1,14 +1,14 @@
 {
-  "name": "Abu_ser",
+  "name": "Minx",
   "version": "7.3.6",
-  "description": "Abu is the Modified Version of WhatsAsena, Made By @Afx-Abu with Baileys.",
-  "main": "./Abu_ser/bot.js",
+  "description": "Minx is the Modified Version of WhatsAsena, Made By @AXN4 with Baileys.",
+  "main": "./Minx/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Afx-Abu/Abu_ser.git"
+    "url": "git+https://github.com/AXN4/Minx.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,13 +17,13 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "Afx-Abu",
-  "developer": "@Afx-Abu ",
+  "author": "AXN4",
+  "developer": "@AXN4 ",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Afx-Abu/Abu_ser/issues"
+    "url": "https://github.com/AXN4/Minx/issues"
   },
-  "homepage": "https://github.com/Afx-Abu/Abu_ser#readme",
+  "homepage": "https://github.com/AXN4/Minx#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
