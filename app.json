@@ -48,12 +48,12 @@
         "NAME_STYLE": {
             "description": "Set the logo list name",
             "required": true,
-            "value": "ᴀʙᴜ⁴⁰⁴"
+            "value": "ᴀxɴ4⁴⁰⁴"
         },
         "CMD_LIST": {
             "description": "You can change Command list emojis like: help/❤️/😅/🍃/💌.)",
             "required": true,
-            "value": "ᴀʙᴜ/🎗️/💝/✨/📝"
+            "value": "ᴀxɴ4/🎗️/💝/✨/📝"
         },
         "AUTO_STICKER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
@@ -113,8 +113,8 @@
             "required": true,
             "value": "false"
         },
-        "ABU_AI": {
-            "description": "turn on chat back auto reply Abu (use true to on and fale to off)",
+        "Minx_AI": {
+            "description": "turn on chat back auto reply Minx (use true to on and fale to off)",
             "required": true,
             "value": "true"
         },
@@ -188,7 +188,7 @@
             "value": "7280542"
         },
         "WORK_TYPE": {
-            "description": "Abu Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Minx Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
