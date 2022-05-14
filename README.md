@@ -54,9 +54,9 @@ https://heroku.com/deploy?template=https://github.com/AXN4/Minx
 6. Now change AXN4 with your github username and click ENJOY<br>
    <br>
 # Contact for help:
-   * Click [Contact](https://wa.me/8590451659?text=Need+Help🙂) Here For Contact AXN4
+   * Click [Contact](https://wa.me/918590451659?text=Need+Help🙂) Here For Contact AXN4
 # Contact for help:
-   * Click [Contact](https://wa.me/7994761437?text=Need+Help🙂) Here For Contact Abhiram Aj 
+   * Click [Contact](https://wa.me/917994761437?text=Need+Help🙂) Here For Contact Abhiram Aj 
   
   
   ## Developers
