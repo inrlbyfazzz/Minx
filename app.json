@@ -213,7 +213,7 @@
         "ALL_IMG": {
             "description": "Enter Your Img Url Link {https://img-upload-five.vercel.app/}",
             "required": true,
-            "value": "https://i.imgur.com/Ik2yDch.jpeg"
+            "value": "https://i.imgur.com/4fQb9qt.jpeg"
         },
         "ALL_NAME": {
             "description": "Enter Your Img Url Link {https://img-upload-five.vercel.app/}",
