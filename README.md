@@ -1,7 +1,7 @@
 <div align="center">
+<a href="https://fontmeme.com/beat-saber-font/"><img src="https://fontmeme.com/permalink/220515/af787d79c0f4ebebd271881c4e5643d3.png" alt="beat-saber-font" border="0"></a>
 <div align="center">
   <p align="center">
-
 </p>
  </a>
 </p>
@@ -14,7 +14,7 @@
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwhitedevil-bot.yolasite.com&count_bg=%2379C83D&title_bg=%23030303&icon=webauthn.svg&icon_color=%23FFFAFA&title=WEBSITE+VISITORS&edge_flat=false)](https://axn4.github.io/)
 
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐌𝐢𝐧𝐱+𝐖𝐀+𝐁𝐎𝐓+𝐑𝐄𝐏𝐎.;𝘾𝙍𝙀𝘼𝙏𝙀𝘿+𝘽𝙔+𝐀𝐗𝐍𝟒+𝘼𝙉𝘿+𝐀𝐛𝐡𝐢𝐫𝐚𝐦𝐀𝐣;𝙏𝙃𝙄𝙎+𝙄𝙎+𝘼+𝘽𝙂𝙈+𝙎𝙏𝙄𝘾𝙆𝙀𝙍+𝘽𝙊𝙏;𝙒𝙄𝙏𝙃+𝙈𝙊𝙍𝙀+𝙁𝙀𝘼𝙏𝙐𝙍𝙀𝙎;𝙏𝙃𝘼𝙉𝙆𝙎+𝙁𝙊𝙍+𝙑𝙄𝙎𝙄𝙏𝙄𝙉𝙂+𝙊𝙐𝙍+𝙂𝙄𝙏)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐄𝐋𝐂𝐎𝐌𝐄+𝐓𝐎+𝐌𝐢𝐧𝐱+𝐖𝐀+𝐁𝐎𝐓+𝐑𝐄𝐏𝐎.;𝐂𝐑𝐄𝐀𝐓𝐄𝐃+𝐁𝐘+𝐀𝐗𝐍𝟒+𝐀𝐍𝐃+𝐀𝐛𝐡𝐢𝐫𝐚𝐦𝐀𝐣;𝐓𝐇𝐈𝐒+𝐈𝐒+𝐀+𝐁𝐆𝐌+𝐒𝐓𝐈𝐂𝐊𝐄𝐑+𝐁𝐎𝐓;𝐖𝐈𝐓𝐇+𝐌𝐎𝐑𝐄+𝐅𝐄𝐀𝐓𝐔𝐑𝐄𝐒;𝐓𝐇𝐀𝐍𝐊𝐒+𝐅𝐎𝐑+𝐕𝐈𝐒𝐈𝐓𝐈𝐍𝐆+𝐌𝐘+𝐆𝐈𝐓)](https://axn4.github.io/Minx.html)
 
  </a>
 </p>
@@ -36,7 +36,7 @@
 </p>
 
 
-<a href="https://github.com/AXN4/Minx/fork"><img align="center" src="https://i.imgur.com/vUIRd80.png" alt="Fork and deploy" height="112" width="300" /></a>
+<a href="https://github.com/AXN4/Minx/fork"><img align="center" src="https://telegra.ph/file/1cd6b7b271d21e27c2c8c.png" alt="Fork and deploy" height="300" width="300" /></a>
 <br>
 <div>
 <a href="https://replit.com/@AXN4QR/Minx-Qr-test?v=1"><img align="center" src="https://i.imgur.com/SYoMXG2.png" alt="Scan QR" height="112" width="300" /></a>
