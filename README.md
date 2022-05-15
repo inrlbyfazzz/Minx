@@ -36,10 +36,10 @@
 </p>
 
 
-<a href="https://github.com/AXN4/Minx/fork"><img align="center" src="https://telegra.ph/file/1cd6b7b271d21e27c2c8c.png" alt="Fork and deploy" height="300" width="300" /></a>
+<a href="https://github.com/AXN4/Minx/fork"><img align="center" src="https://telegra.ph/file/fe4b4b26f13b5fb46698b.png" alt="Fork and deploy" height="100" width="200" /></a>
 <br>
 <div>
-<a href="https://replit.com/@AXN4QR/Minx-Qr-test?v=1"><img align="center" src="https://i.imgur.com/SYoMXG2.png" alt="Scan QR" height="112" width="300" /></a>
+<a href="https://replit.com/@AXN4QR/Minx-Qr-test?v=1"><img align="center" src="https://telegra.ph/file/153a9b23d02ce6d0d772e.png" alt="Scan QR" height="100" width="200" /></a>
 <br>
 
 
