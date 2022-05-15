@@ -7,13 +7,13 @@ WhatsAsena - Yusuf Usta
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
-const raganork = require("./raganork");
+const ajabhiram = require("./ajabhiram");
 const { FakeDB, takeMessage } = require("./plugins/sql/fake");
 const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./Abu/');
+const {Message, StringSession, Image, Video} = require('./Minx/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -144,7 +144,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅️Abu Ser working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
+            chalk.green.bold('✅ Minx working ' + config.WORKTYPE + ' 𝚗𝚘𝚠 '));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
@@ -155,7 +155,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
                         (commit) => {
-                            degisiklikler += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                            degisiklikler += '🛠 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                         }
                     );
                     await conn.sendMessage(
@@ -357,7 +357,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG == 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐀𝐁𝐔 𝐒𝐄𝐑࿐ ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝐌𝐈𝐍𝐗࿐ ~______~*' +
                                     '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nhttps://chat.whatsapp.com/DNP9Fd1eWrjKz2DalRI2CX``` ' 
                                     , MessageType.text);
                             }
