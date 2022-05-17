@@ -5,6 +5,6 @@ WORKDIR /jsl/Minx/
 ENV TZ=Asia/Kolkata
 RUN npm install supervisor -g
 RUN yarn install --no-audit
-RUN git clone https://github.com/ameer-kallumthodi/media
+RUN git clone https://github.com/AXN4/media
 
 CMD ["node", "bot.js"]
